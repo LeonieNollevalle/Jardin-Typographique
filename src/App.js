@@ -20,7 +20,7 @@ function Bg() {
           <p> Fichier de travail</p>
           </a>
           </div>
-          <p className="pt-5">Nous avons choisi la police de caractère Gosna <span className="font-bold">(fig.1)</span> comme base de développement pour l’exercice. La police de caractère Gosna a été créée par Dae Huen Lee qui est un étudiant en Design Graphique/Typographie à Estienne. Il a pensé sa police de caractère comme “des coups de pinceau qui s'écoulent de manière dynamique et gestuelle”. “Gosna s'inspire des improvisations solos de jazz et peut apporter à n'importe quel texte une qualité musicale vivante.” 
+          <p className="text-sm pt-3">Nous avons choisi la police de caractère Gosna <span className="font-bold">(fig.1)</span> comme base de développement pour l’exercice. La police de caractère Gosna a été créée par Dae Huen Lee qui est un étudiant en Design Graphique/Typographie à Estienne. Il a pensé sa police de caractère comme “des coups de pinceau qui s'écoulent de manière dynamique et gestuelle”. “Gosna s'inspire des improvisations solos de jazz et peut apporter à n'importe quel texte une qualité musicale vivante.” 
           Une qualité musicale vivante qui nous a fait penser à Auriol<span className="font-bold">*</span> <span className="font-bold">(fig.2)</span>, une police de caractère iconique de l’Art Nouveau. Inspiré par la nature, ce mouvement artistique nous a donné envie de créer des paysages typographiques en utilisant la police de caractère Gosna, qui présente elle aussi des courbes naturelles. 
           <br/>
           <br/>
@@ -30,21 +30,21 @@ function Bg() {
           <br/>
           Nous avons mis en scène ces nouveaux caractères à travers quatre éléments : sable, végétaux, eau et feu. Chaque mise en scène permet, grâce à la souris matérialisant l’effet du vent, de créer des expériences interactives sur chacun de ces éléments. La confrontation de chacun des éléments dans la page rappelle la dualité créée dans les caractères typographiques.
           </p>
-          <p className="italic pt-5"><span className='font-bold text-lg'>*</span>(Auriol est une police de caractères à empattement triangulaire au pinceau, à effet pochoir, conçue par George Auriol en 1901 pour la fonderie G. Peignot & Fils).</p>
+          <p className="text-sm italic pt-3"><span className='font-bold text-lg'>*</span>(Auriol est une police de caractères à empattement triangulaire au pinceau, à effet pochoir, conçue par George Auriol en 1901 pour la fonderie G. Peignot & Fils).</p>
         
-        <div className="w-full flex justify-between gap-3 pt-10 ">
+        <div className="w-full flex justify-between gap-3 pt-3 ">
           <div className="w-1/4 flex flex-col gap-5">
-          <p><span className="font-bold">(Fig.1)</span> Gosna, Dae Huen Lee, 2021</p>
+          <p><span className="text-sm font-bold">(Fig.1)</span> Gosna, Dae Huen Lee, 2021</p>
           <img  src="https://cdn-djjbi.nitrocdn.com/PwrDEHmhGfvFuagMkOtDweGmuvdQKiJo/assets/images/optimized/rev-9c65dab/type-department.com/wp-content/uploads/2021/04/WebshopSlides_5.jpg" alt="gosna" />
           </div>
           
           <div className="w-1/4">
-          <p><span className="font-bold">(Fig.2)</span> Auriol, George Auriol, 1901</p>
+          <p><span className="text-sm  font-bold">(Fig.2)</span> Auriol, George Auriol, 1901</p>
           <img   src="https://upload.wikimedia.org/wikipedia/commons/c/ca/Auriol_specimen.png" alt="gosna" />
           </div>
 
           <div className="w-1/4 flex flex-col gap-8">
-          <p><span className="font-bold">(Fig.3)</span> Gosna custom, LaTeam, 2024</p>
+          <p><span className="text-sm font-bold">(Fig.3)</span> Gosna custom, LaTeam, 2024</p>
           <svg className="w-full "  viewBox="0 0 366 351" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path d="M366 287.664C366 307.118 343.869 310.933 270.99 310.933C212.23 310.933 179.785 315.897 179.785 240.379C179.785 214.823 183.602 180.879 190.857 134.352C194.295 112.612 196.962 92.0201 196.962 73.7151C196.962 41.6785 188.948 16.5018 163 7.73437C216.426 0.483474 230.924 10.4001 230.924 30.6126C230.924 39.38 227.486 52.7325 224.439 61.8909C242.363 28.6932 279.383 2 317.92 2C343.11 2 362.954 14.2033 362.954 34.4158C362.954 61.8791 326.325 83.2289 302.664 96.9606C285.488 106.877 234.741 141.201 243.133 149.968C252.676 160.264 306.481 115.266 354.94 146.153C311.827 121.746 258.022 177.81 234.361 181.234C225.589 182.384 218.714 175.512 222.531 161.022C232.832 121.355 333.567 90.468 333.567 46.2281C333.567 31.7381 320.978 22.9589 303.423 22.9589C279.762 22.9589 254.963 37.8279 239.316 57.2821C213.368 90.077 200.399 151.484 200.399 200.689C200.399 262.854 231.694 300.614 286.637 300.614C317.553 300.614 334.717 284.595 334.717 261.326C334.717 246.457 327.083 228.14 311.436 209.835C350.353 248.732 366 272.759 366 287.64V287.664Z" fill="black"/>
           <path d="M54.5522 207.867C38.9049 226.172 31.2709 244.478 31.2709 259.36C31.2709 282.63 48.4474 298.649 79.3508 298.649C134.294 298.649 165.589 260.888 165.589 198.72C165.589 149.514 152.62 88.1159 126.672 55.3079C111.025 35.853 86.2261 20.9834 62.5655 20.9834C45.0097 20.9834 32.4207 29.7511 32.4207 44.2535C32.4207 88.4951 133.156 119.384 143.457 159.052C147.274 173.542 140.411 180.414 131.627 179.265C107.966 175.829 54.161 119.763 11.0479 144.182C59.5072 113.294 113.313 158.293 122.855 147.997C131.248 139.23 80.5006 104.905 63.3241 94.9879C39.6754 81.2439 3.03463 59.8814 3.03463 32.417C3.03463 12.2038 22.8783 0 48.068 0C86.6054 0 123.626 26.6943 141.561 59.8814C138.502 50.7226 135.076 37.3814 135.076 28.6018C135.076 8.38861 149.574 -1.52843 203 5.72274C177.052 14.4905 169.038 39.6682 169.038 71.706C169.038 90.0116 171.705 110.604 175.143 132.346C182.398 178.874 186.215 212.819 186.215 238.376C186.215 313.897 153.782 308.933 95.0099 308.933C22.1314 308.933 0 305.118 0 285.663C0 270.793 15.6473 246.765 54.564 207.855L54.5522 207.867Z" fill="#808080"/>
